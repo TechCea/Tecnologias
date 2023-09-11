@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#chat{
+    position: fixed;
+    width: 200px;
+    height: 40px;
+    bottom: 0;
+    right: 30px;
+    background: #e613c2;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-family: sans-serif, cursive;
+    font-size: 20px;
+    border-radius: 20px 20px 0 0;
+    cursor: pointer;
+}
+.Carrito{
+position: absolute;
+bottom: 70px;
+right: 150px;
+}
+body{
+    background: green;
+}
+
+header{
+    position: relative;
+    margin-left: 20px;
+    width: 1320px;
+    height: 194px;
+    background: whitesmoke;
+}
+#Logo{
+    position: absolute;
+    right: 450px;
+    width: 396px;
+    height: 132px;
+    top: 20px;
+    background: #ec0b0b;
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+}
+.redes{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 0;
+    border-radius: 100%;
+    text-align: center;
+}
+#icono1{
+    top: 10px;
+    left: 256px;
+    
+}
+#icono2{
+    top: 10px;
+    left: 128px;
+}
+#icono3{
+    top: 10px;
+    left: 19px;
+}
+nav{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 48px;
+
+}
+.botones{
+    float: left;
+    margin: 0px 2px;
+    height: 48px;
+    width: 196px;
+    background: #e613c2;
+    font-family: sans-serif, cursive;
+    color: white;
+    line-height: 48px;
+}
+a .botones:hover{
+    background: rgba(100, 0, 255,.4);
+}
+a .botones:active{
+    background: rgba(235, 4, 146, 0.945);
+}
+#top{
+    position: relative;
+    margin:20px auto;
+    width: 1000px;
+    height: 192px;
+    background: white;
+    text-align: center;
+}
+#top ul li img{
+border-radius: 20%;
+}
+#top ul li h6{
+    font-family: sans-serif,cursive;
+}
+.slide{
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+}
+section{
+    position: relative;
+    margin:20px auto;
+    width: 1000px;
+    height: 453px;
+    background: #c4ee07;
+    cursor: pointer;
+}
+#top ul{
+    width: 1010px;
+    height: 192px;
+    color: white;
+}
+#top ul li{
+    margin-top: 20px;
+    float: left;
+    width: 200px;
+    height: 192px;
+    background: #444;
+    margin-right: 10px;
+}
+aside#izq{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 453px;
+    background: #ec0b0b;
+}
+aside#izq ul li a{
+    text-decoration: none;
+}
+article{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 600px;
+    height: 453px;
+    background: blue;
+    color: white;
+    line-height: 16px;
+}
+article h4{
+    font-family: sans-serif, cursive;
+    font-size: 40px;
+    margin: 20px;
+}
+article p img{
+    float: left;
+    margin-right: 20px;
+}
+article p{
+    margin:5px 20px;
+    text-align: justify;
+}
+aside#der{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 453px;
+
+}
+aside#der h1{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: rgba(100,0, 255, 1);
+    color: white;
+    margin-bottom: 5px;
+}
+aside#der input{
+    padding: 10px;
+    margin: 5px 0;
+    width: 176px;
+    color: white;
+}
+aside#der input[type="text"]{
+    background:url(/IMG/91fe42f9896ef34782b23fa347d3b0a2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    color: white;
+}
+aside#der input[placeholder="Usuario"]{
+    color: white;
+}
+aside#der input[type="password"]{
+    background:url(/IMG/91fe42f9896ef34782b23fa347d3b0a2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+aside#der input[type="email"]{
+    background:url(/IMG/91fe42f9896ef34782b23fa347d3b0a2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+}
+aside#der input[type="submit"]{
+margin-left: 10px;
+color: black;
+background: blue;
+}
+aside#der input[type="submit"]:active{
+background: #c4ee07;
+    }
+aside#der input[type="submit"]:hover{
+    background: palevioletred;
+}
+aside#izq ul li{
+    background: grey;
+    padding: 10px;
+    margin: 2px 10px;
+    font-family: sans-serif;
+}
+footer{
+    position: relative;
+    margin:20px auto;
+    width: 1000px;
+    height: 70px;
+    background: #ec0b0b;
+    color: white;
+    text-align: center;
+    font-family: sans-serif,cursive;
+    line-height: 70px;
+}
