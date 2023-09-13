@@ -24,6 +24,7 @@
 position: absolute;
 bottom: 70px;
 right: 150px;
+background-image: none;
 }
 body{
     margin: 0;
