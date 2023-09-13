@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    font-family: 'Press Start 2P', cursive;
 }
 #chat{
     position: fixed;
@@ -25,15 +26,19 @@ bottom: 70px;
 right: 150px;
 }
 body{
-    background: green;
-}
+    margin: 0;
+    padding: 0;
+    background: url(/IMG/Picsart_23-07-22_21-56-34-072.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
 
+}
 header{
     position: relative;
     margin-left: 20px;
     width: 1320px;
     height: 194px;
-    background: whitesmoke;
 }
 #Logo{
     position: absolute;
@@ -45,6 +50,11 @@ header{
     font-size: 50px;
     text-align: center;
     line-height: 60px;
+}
+.ProductoD{
+    margin-top: 310px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 35px;
 }
 .redes{
     position: absolute;
@@ -76,11 +86,21 @@ nav{
 }
 .botones{
     float: left;
-    margin: 0px 2px;
+    margin-left: 0px;
     height: 48px;
-    width: 196px;
+    width: 140px;
     background: #e613c2;
-    font-family: sans-serif, cursive;
+    font-size: 18px;
+    color: white;
+    line-height: 48px;
+}
+.botones1{
+    float: left;
+    margin-left: 0px;
+    height: 48px;
+    width: 140px;
+    background: #e613c2;
+    font-size: 15px;
     color: white;
     line-height: 48px;
 }
