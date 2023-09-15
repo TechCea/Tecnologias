@@ -3,6 +3,7 @@
     padding: 0;
     list-style: none;
     font-family: 'Press Start 2P', cursive;
+    background-position: center;
 }
 #chat{
     position: fixed;
@@ -27,13 +28,11 @@ right: 150px;
 background-image: none;
 }
 body{
-    margin: 0;
-    padding: 0;
     background: url(/IMG/Picsart_23-07-22_21-56-34-072.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    font-family: sans-serif;
-
+    background-position:center;
+    
 }
 header{
     position: relative;
@@ -51,6 +50,7 @@ header{
     font-size: 50px;
     text-align: center;
     line-height: 60px;
+    cursor: pointer;
 }
 .ProductoD{
     margin-top: 310px;
@@ -64,30 +64,128 @@ header{
     top: 0;
     border-radius: 100%;
     text-align: center;
+    cursor: pointer;
+
 }
 #icono1{
     top: 10px;
     left: 256px;
-    
+    cursor: pointer;    
 }
 #icono2{
     top: 10px;
     left: 128px;
+    cursor: pointer;
+
 }
 #icono3{
     top: 10px;
     left: 19px;
+    cursor: pointer;
 }
 nav{
     position: relative;
     margin: auto;
-    width: 1000px;
-    height: 48px;
-
+    left: 160px;
+    width: 1320px;
+    height: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
 }
 .botones{
+    float:left;
+    left: 100px;
+    margin-left: 0;
+    height: 30px;
+    width: 124px;
+    background: #e613c2;
+    font-size: 15px;
+    color: white;
+    line-height: 28px;
+    text-align: center;
+    display: inline;
+    cursor: pointer;
+}
+.botones1{
     float: left;
     margin-left: 0px;
+    height: 30px;
+    width: 184px;
+    background: #e613c2;
+    font-size: 15px;
+    color: white;
+    line-height: 28px;
+    text-align: center;
+    cursor: pointer;
+}
+a .botones:hover{
+    color: #3F2212;
+    font-size: 18px;
+}
+a .botones:active{
+    background: rgba(235, 4, 146, 0.945);
+}
+.botones1:hover{
+    color: #3F2212;
+    font-size: 18px;
+}
+a .botones1:active{
+    background: rgba(235, 4, 146, 0.945);
+}
+.botonesC{
+    margin-left: 0;
+    width: 240px;
+    height: 53px;
+    text-decoration: none;
+}
+.submenu{
+    margin-left: 0;
+    display: none;
+    background: rgba(235, 4, 146, 0.945);
+    line-height: 18px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+nav ul li:hover .submenu ul a{
+    color: white;
+}
+.submenu :hover{
+    color: #3F2212;
+}
+.submenu ul li{
+    width: 166;
+    height: 36;
+}
+.slide{
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    margin: auto;
+    padding: auto;
+    width: 165px;
+    height: 165px;
+}
+.Imagenes{
+    margin: 20px;
+    margin-left: 90px;
+    border: 60px;
+    border-spacing: 60px;
+}
+.Imagen1{
+padding: 20px;
+}
+.botones2{
+    float: left;
+    margin-left: 0px;
+    margin-top: 82px;
     height: 48px;
     width: 140px;
     background: #e613c2;
@@ -95,9 +193,10 @@ nav{
     color: white;
     line-height: 48px;
 }
-.botones1{
+.botones3{
     float: left;
     margin-left: 0px;
+    margin-top: 82px;
     height: 48px;
     width: 140px;
     background: #e613c2;
@@ -105,157 +204,31 @@ nav{
     color: white;
     line-height: 48px;
 }
-a .botones:hover{
-    background: rgba(100, 0, 255,.4);
+a .botones2:hover{
+    color: #3F2212;
 }
-a .botones:active{
+a .botones2:active{
     background: rgba(235, 4, 146, 0.945);
 }
-#top{
-    position: relative;
-    margin:20px auto;
-    width: 1000px;
-    height: 192px;
-    background: white;
-    text-align: center;
+a .botones3:hover{
+    color: #3F2212;
 }
-#top ul li img{
-border-radius: 20%;
+a .botones3:active{
+    background: rgba(235, 4, 146, 0.945);
 }
-#top ul li h6{
-    font-family: sans-serif,cursive;
-}
-.slide{
-    position: relative;
-    top: 20px;
-    bottom: 20px;
-    margin: auto;
-    width: 600px;
-    height: 600px;
-}
-section{
-    position: relative;
-    margin:20px auto;
-    width: 1000px;
-    height: 453px;
-    background: #c4ee07;
-    cursor: pointer;
-}
-#top ul{
-    width: 1010px;
-    height: 192px;
-    color: white;
-}
-#top ul li{
-    margin-top: 20px;
-    float: left;
-    width: 200px;
-    height: 192px;
-    background: #444;
-    margin-right: 10px;
-}
-aside#izq{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200px;
-    height: 453px;
-    background: #ec0b0b;
-}
-aside#izq ul li a{
-    text-decoration: none;
-}
-article{
-    position: absolute;
-    left: 200px;
-    top: 0;
-    width: 600px;
-    height: 453px;
-    background: blue;
-    color: white;
-    line-height: 16px;
-}
-article h4{
-    font-family: sans-serif, cursive;
-    font-size: 40px;
-    margin: 20px;
-}
-article p img{
-    float: left;
-    margin-right: 20px;
-}
-article p{
-    margin:5px 20px;
-    text-align: justify;
-}
-aside#der{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 200px;
-    height: 453px;
-
-}
-aside#der h1{
-    width: 200px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    background: rgba(100,0, 255, 1);
-    color: white;
-    margin-bottom: 5px;
-}
-aside#der input{
-    padding: 10px;
-    margin: 5px 0;
-    width: 176px;
-    color: white;
-}
-aside#der input[type="text"]{
-    background:url(/IMG/91fe42f9896ef34782b23fa347d3b0a2.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-    color: white;
-}
-aside#der input[placeholder="Usuario"]{
-    color: white;
-}
-aside#der input[type="password"]{
-    background:url(/IMG/91fe42f9896ef34782b23fa347d3b0a2.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-}
-aside#der input[type="email"]{
-    background:url(/IMG/91fe42f9896ef34782b23fa347d3b0a2.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-
-}
-aside#der input[type="submit"]{
-margin-left: 10px;
-color: black;
-background: blue;
-}
-aside#der input[type="submit"]:active{
-background: #c4ee07;
-    }
-aside#der input[type="submit"]:hover{
-    background: palevioletred;
-}
-aside#izq ul li{
-    background: grey;
-    padding: 10px;
-    margin: 2px 10px;
-    font-family: sans-serif;
+.insta{
+    margin: 0;
+    padding: 0;
+    width: 174px;
+    height: 174px;
+    left: 574px;
+    border-radius: 25%;
 }
 footer{
     position: relative;
-    margin:20px auto;
-    width: 1000px;
-    height: 70px;
+    margin:0 auto;
+    width: 1320px;
+    height: 482px;
     background: #ec0b0b;
     color: white;
     text-align: center;
