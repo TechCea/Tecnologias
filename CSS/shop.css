@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Press Start 2P', cursive;
+    background-position: center;
+}
+#chat{
+    position: fixed;
+    width: 200px;
+    height: 40px;
+    bottom: 0;
+    right: 30px;
+    background: #e613c2;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-family: sans-serif, cursive;
+    font-size: 20px;
+    border-radius: 20px 20px 0 0;
+    cursor: pointer;
+}
+.Carrito{
+position: absolute;
+bottom: 70px;
+right: 150px;
+background-image: none;
+}
+body{
+    background: url(/IMG/Picsart_23-07-22_21-56-34-072.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    
+}
+header{
+    position: relative;
+    margin-left: 20px;
+    width: 1320px;
+    height: 194px;
+}
+#Logo{
+    position: absolute;
+    right: 450px;
+    width: 396px;
+    height: 132px;
+    top: 20px;
+    background: #ec0b0b;
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+}
+.ProductoD{
+    margin-top: 310px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 35px;
+}
+.redes{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 0;
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+
+}
+#icono1{
+    top: 10px;
+    left: 256px;
+    cursor: pointer;    
+}
+#icono2{
+    top: 10px;
+    left: 128px;
+    cursor: pointer;
+
+}
+#icono3{
+    top: 10px;
+    left: 19px;
+    cursor: pointer;
+}
+nav{
+    position: relative;
+    margin: auto;
+    left: 160px;
+    width: 1320px;
+    height: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.botones{
+    float:left;
+    left: 100px;
+    margin-left: 0;
+    height: 30px;
+    width: 124px;
+    background: #e613c2;
+    font-size: 15px;
+    color: white;
+    line-height: 28px;
+    text-align: center;
+    display: inline;
+    cursor: pointer;
+}
+.botones1{
+    float: left;
+    margin-left: 0px;
+    height: 30px;
+    width: 184px;
+    background: #e613c2;
+    font-size: 15px;
+    color: white;
+    line-height: 28px;
+    text-align: center;
+    cursor: pointer;
+}
+a .botones:hover{
+    color: #3F2212;
+    font-size: 18px;
+}
+a .botones:active{
+    background: rgba(235, 4, 146, 0.945);
+}
+.botones1:hover{
+    color: #3F2212;
+    font-size: 18px;
+}
+a .botones1:active{
+    background: rgba(235, 4, 146, 0.945);
+}
+.botonesC{
+    margin-left: 0;
+    width: 240px;
+    height: 53px;
+    text-decoration: none;
+}
+.submenu{
+    margin-left: 0;
+    display: none;
+    background: rgba(235, 4, 146, 0.945);
+    line-height: 18px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+nav ul li:hover .submenu ul a{
+    color: white;
+}
+.submenu :hover{
+    color: #3F2212;
+}
+.submenu ul li{
+    width: 166;
+    height: 36;
+}
+.slide{
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    margin: auto;
+    padding: auto;
+    width: 165px;
+    height: 165px;
+}
+.Imagenes{
+    margin: 20px;
+    margin-left: 90px;
+    border: 60px;
+    border-spacing: 60px;
+}
+.Imagen1{
+padding: 20px;
+}
+.botones2{
+    float: left;
+    margin-left: 0px;
+    margin-top: 82px;
+    height: 48px;
+    width: 140px;
+    background: #e613c2;
+    font-size: 18px;
+    color: white;
+    line-height: 48px;
+}
+.botones3{
+    float: left;
+    margin-left: 0px;
+    margin-top: 82px;
+    height: 48px;
+    width: 140px;
+    background: #e613c2;
+    font-size: 15px;
+    color: white;
+    line-height: 48px;
+}
+a .botones2:hover{
+    color: #3F2212;
+}
+a .botones2:active{
+    background: rgba(235, 4, 146, 0.945);
+}
+a .botones3:hover{
+    color: #3F2212;
+}
+a .botones3:active{
+    background: rgba(235, 4, 146, 0.945);
+}
+.insta{
+    margin: 0;
+    padding: 0;
+    width: 174px;
+    height: 174px;
+    left: 574px;
+    border-radius: 25%;
+}
+footer{
+    position: relative;
+    margin:0 auto;
+    width: 1320px;
+    height: 482px;
+    background: #ec0b0b;
+    color: white;
+    text-align: center;
+    font-family: sans-serif,cursive;
+    line-height: 70px;
+}
