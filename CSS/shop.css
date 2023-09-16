@@ -122,15 +122,9 @@ a .botones:hover{
     color: #3F2212;
     font-size: 18px;
 }
-a .botones:active{
-    background: rgba(235, 4, 146, 0.945);
-}
 .botones1:hover{
     color: #3F2212;
     font-size: 18px;
-}
-a .botones1:active{
-    background: rgba(235, 4, 146, 0.945);
 }
 .botonesC{
     margin-left: 0;

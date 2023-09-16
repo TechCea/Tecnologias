@@ -32,6 +32,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
+    background-attachment: fixed;
     
 }
 header{
@@ -122,15 +123,9 @@ a .botones:hover{
     color: #3F2212;
     font-size: 18px;
 }
-a .botones:active{
-    background: rgba(235, 4, 146, 0.945);
-}
 .botones1:hover{
     color: #3F2212;
     font-size: 18px;
-}
-a .botones1:active{
-    background: rgba(235, 4, 146, 0.945);
 }
 .botonesC{
     margin-left: 0;
@@ -165,13 +160,13 @@ nav ul li:hover .submenu ul a{
     height: 36;
 }
 .slide{
-    position: relative;
+    position:absolute;
     top: 20px;
     bottom: 20px;
     margin: auto;
     padding: auto;
-    width: 165px;
-    height: 165px;
+    width: 365px;
+    height: 365px;
 }
 .Imagenes{
     margin: 20px;
@@ -223,6 +218,14 @@ a .botones3:active{
     height: 174px;
     left: 574px;
     border-radius: 25%;
+}
+.carousel .slide{
+    height: 365px;
+    width: 365px;
+}
+.carousel-inner{
+    height: 365px;
+    width: 365px;
 }
 footer{
     position: relative;
