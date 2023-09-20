@@ -1,0 +1,76 @@
+body{
+    background: url(/IMG/Picsart_23-07-22_21-56-34-072.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.slide{
+    position:absolute;
+    top: 20px;
+    bottom: 20px;
+    margin: auto;
+    padding: auto;
+    width: 365px;
+    height: 365px;
+}
+.Imagenes{
+    margin: 10px;
+    margin-left: 90px;
+    border: 10px;
+    border-spacing: 10px;
+}
+.Imagen1{
+padding: 10px;
+}
+.botones2{
+    float: left;
+    margin: auto;
+    height: 48px;
+    width: 140px;
+    background: #e613c2;
+    font-size: 18px;
+    color: white;
+    line-height: 48px;
+}
+.botones3{
+    float: left;
+    margin-left: 0px;
+    height: 48px;
+    width: 140px;
+    background: #e613c2;
+    font-size: 15px;
+    color: white;
+    line-height: 48px;
+}
+a .botones2:hover{
+    color: #3F2212;
+}
+a .botones2:active{
+    background: rgba(235, 4, 146, 0.945);
+}
+a .botones3:hover{
+    color: #3F2212;
+}
+a .botones3:active{
+    background: rgba(235, 4, 146, 0.945);
+}
+.insta{
+    margin: auto;
+    padding: 0;
+    width: 174px;
+    height: 174px;
+    border-radius: 25%;
+    color: red;
+}
+footer{
+    position: relative;
+    border: #e613c2;
+    margin:0 auto;
+    width: 1320px;
+    height: 482px;
+    background: #ec0b0b;
+    color: white;
+    text-align: center;
+    font-family: sans-serif,cursive;
+    line-height: 70px;
+}
