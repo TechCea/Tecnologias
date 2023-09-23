@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+/* about */ 
+
+.box{
+    background-image: url(/capiimagenes/fondo.jpg);
+    height: 400vh;
+    background-position: center;
+    background-size: cover;
+    background-position: static;
+}
+
+header{
+    position: relative;
+    margin:20px auto;
+    width: 1000px;
+    height: 200px;
+    background-color: #E0ECFF;
+    background-color: transparent; 
+}
+
+
+#Logo{
+    position: absolute;
+    top: 10px;
+    left: 280px;
+    width: 450px;
+    height: 90px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.redes{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+#icono1{
+    top: 25px;
+    right: 790px;
+    
+}
+#icono2{
+    top: 25px;
+    right: 930px;
+}
+
+#icono3{
+    top: 25px;
+    right: 220px;
+    
+}
+
+#icono4{
+    top: 25px;
+    right: 80px;
+    
+}
+
+#hora{
+    top: 1300px;
+    right: 1630px;
+    
+}
+#hora2{
+    top: 1300px;
+    right: 1100px;
+    
+}
+#hora3{
+    top: 1300px;
+    right: 575px;
+    
+}
+
+#reparacion{
+    top: 2200px;
+    right: 1630px;
+    
+}
+
+nav{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 48px;
+
+}
+.botones{
+    float: left;
+    margin: 0px 2px;
+    height: 48px;
+    width: 196px;
+    
+    font-family: sans-serif, cursive;
+    color: white;
+    line-height: 48px;
+}
+
+
+
+
+article{
+    position: absolute;
+    left: 700px;
+    top: 300;
+    width: 500px;
+    height: 453px;
+    color: white;
+    line-height: 36px;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+article h4{
+    font-family: sans-serif, cursive;
+    font-size: 40px;
+    margin: 20px;
+}
+article p img{
+    float: left;
+    margin-right: 20px;
+}
+article p{
+    margin:5px 20px;
+    text-align: justify;
+}
+
+.mapouter{
+    position: absolute;
+    top:650px;
+    left: 650px;
+    width: 600px;
+    
+}
+
+footer{
+    position: relative;
+    margin:20px auto;
+    width: 1000px;
+    height: 70px;
+    background: #073104;
+    color: white;
+    text-align: center;
+    font-family: sans-serif,cursive;
+    line-height: 70px;
+    top: 2900px;
+}
+
+/* login */ 
+.container{
+    padding: 0 10px;
+    min-height: 30vh;
+    min-width: 2vh;   
+    justify-content: center;
+    background-color: #E0ECFF;
+    background-color: transparent; 
+    /*background: #f0f2f5;*/
+}
+
+.Capibeads-page{
+    justify-content: space-between;
+    max-width: 300px;
+    width: 100%;
+}
+
+.Capibeads-page .text{
+    margin-bottom: 140px;
+}
+
+.Capibeads-page h1{
+    color: #1877f2;
+    font-size: 2.75rem;
+    white-space: nowrap;
+    
+}
+
+
+
+form input{
+height: 25px;
+width: 70%;
+border: 1px solid #ccc;
+border-radius: 6px ;
+margin-bottom: 25px;
+font-size: 1rem;
+padding: 0 14px;
+}
+
+form input:focus{
+    outline: none;
+    border-color: #f25618;
+}
+
+::placeholder{
+    color: #777;
+    font-size: 1.063rem;
+}
+
+.link {
+    display: flex;
+    flex-direction: column ;
+    text-align: center;
+    gap: 15px;
+}
+
+#capy{
+    top: 300px;
+    right: 875px;
+    
+}
+
+#capibeads{
+    top: 1000px;
+    left: 800px;
+}
