@@ -1,3 +1,7 @@
+*{
+    color: white;
+    text-decoration:none
+}
 body{
     background: url(/IMG/Picsart_23-07-22_21-56-34-072.jpg);
     background-repeat: no-repeat;
@@ -22,9 +26,13 @@ body{
 .Imagen1{
 padding: 10px;
 }
+.Categorias{
+    background: #ec0b0b;
+}
 .botones2{
     float: left;
     margin: auto;
+    margin-top: 60px;
     height: 48px;
     width: 140px;
     background: #e613c2;
@@ -34,10 +42,9 @@ padding: 10px;
 }
 .botones3{
     float: left;
-    margin-left: 0px;
+    margin-top: 60px;
     height: 48px;
     width: 140px;
-    background: #e613c2;
     font-size: 15px;
     color: white;
     line-height: 48px;
@@ -54,6 +61,73 @@ a .botones3:hover{
 a .botones3:active{
     background: rgba(235, 4, 146, 0.945);
 }
+.botones{
+    float:left;
+    left: 100px;
+    margin-left: 0;
+    height: 30px;
+    width: 124px;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    display: inline;
+    cursor: pointer;
+}
+.botones1{
+    float: left;
+    margin-left: 0px;
+    height: 30px;
+    width: 184px;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    cursor: pointer;
+}
+a .botones:hover{
+    color: #3F2212;
+    font-size: 18px;
+}
+.botones1:hover{
+    color: #3F2212;
+    font-size: 18px;
+}
+.botonesC{
+    display: block;
+    margin-left: 0;
+    width: 240px;
+    height: 53px;
+    text-decoration: none;
+}
+a .botonesC:hover{
+    color: #3F2212;
+    display: block;
+}
+.submenu{
+    margin-left: 0;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+}
+table ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+table ul li:hover .submenu ul a{
+    color: white;
+    display: block;
+}
+.submenu :hover{
+    display: block;
+    color: #3F2212;
+}
+.submenu ul li .botonesC{
+    display: block;
+    width: 166;
+    height: 36;
+}
 .insta{
     margin: auto;
     padding: 0;
@@ -64,7 +138,6 @@ a .botones3:active{
 }
 footer{
     position: relative;
-    border: #e613c2;
     margin:0 auto;
     width: 1320px;
     height: 482px;
