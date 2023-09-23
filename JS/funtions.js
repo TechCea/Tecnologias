@@ -75,3 +75,16 @@ document.querySelectorAll('.item').forEach(item =>{
         }
     });
 });
+
+
+function recogerDatos(){
+    let username = document.getElementById("username").value;
+    let Email = document.getElementById("Email").value;
+    let Mensaje = document.getElementById("Mensaje").value;
+
+
+    let mensajeFinal ="El ciente se llama"+username+
+    ", Email;"+Email+"y Nos dice"+Mensaje;
+
+    console.log(mensajeFinal);
+}
