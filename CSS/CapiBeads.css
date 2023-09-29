@@ -1,12 +1,16 @@
 *{
+    margin: 0;
+    padding: 0;
     color: white;
-    text-decoration:none
+    text-decoration:none;
+    font-family: 'Press Start 2P', cursive;
+
 }
 body{
     background: url(/IMG/Picsart_23-07-22_21-56-34-072.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center;
+
 }
 .slide{
     position:absolute;
@@ -29,6 +33,141 @@ padding: 10px;
 .Categorias{
     background: #ec0b0b;
 }
+form input{
+height: 25px;
+width: 70%;
+border: 1px solid #ccc;
+border-radius: 6px ;
+margin-bottom: 25px;
+font-size: 1rem;
+padding: 0 14px;
+}
+
+form input:focus{
+    outline: none;
+    border-color: #f25618;
+}
+
+::placeholder{
+    color: #777;
+    font-size: 1.063rem;
+}
+
+.link {
+    display: flex;
+    flex-direction: column ;
+    text-align: center;
+    gap: 15px;
+}
+
+#capy{
+    top: 300px;
+    right: 875px;
+    
+}
+
+#capibeads{
+    top: 1000px;
+    left: 800px;
+}
+form input{
+    height: 25px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 6px ;
+    margin-bottom: 25px;
+    font-size: 1rem;
+    padding: 0 14px;
+    }
+    
+    form input:focus{
+        outline: none;
+        border-color: #f25618;
+    }
+    
+    ::placeholder{
+        color: #777;
+        font-size: 1.063rem;
+    }
+    
+    .link {
+        display: flex;
+        flex-direction: column ;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    #capy{
+        top: 300px;
+        right: 875px;
+        
+    }
+    
+    #capibeads{
+        top: 1000px;
+        left: 800px;
+    }
+
+/* login */ 
+.container{
+    padding: 0 10px;
+    min-height: 30vh;
+    min-width: 2vh;   
+    justify-content: center;
+    background-color: #E0ECFF;
+    background-color: transparent; 
+    /*background: #f0f2f5;*/
+}
+
+.Capibeads-page{
+    justify-content: space-between;
+    max-width: 300px;
+    width: 100%;
+}
+
+.Capibeads-page .text{
+    margin-bottom: 140px;
+}
+
+.Capibeads-page h1{
+    color: #1877f2;
+    font-size: 2.75rem;
+    white-space: nowrap;
+    
+}
+article{
+    position: absolute;
+    left: 700px;
+    top: 300;
+    width: 500px;
+    height: 453px;
+    color: white;
+    line-height: 36px;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+article h4{
+    font-family: sans-serif, cursive;
+    font-size: 40px;
+    margin: 20px;
+}
+article p img{
+    float: left;
+    margin-right: 20px;
+}
+article p{
+    margin:5px 20px;
+    text-align: justify;
+}
+
+.mapouter{
+    position: absolute;
+    top:650px;
+    left: 650px;
+    width: 600px;
+    
+}
+
 .botones2{
     float: left;
     margin: auto;
@@ -136,14 +275,99 @@ table ul li:hover .submenu ul a{
     border-radius: 25%;
     color: red;
 }
+.Inicio{
+    text-align: center;
+    margin: auto;
+    font-size: 5px;
+}
+.contac{
+    height: 1200px;
+    width: 1200px;
+    background-color: #3F2212;
+}
+#mensaje{
+    color: #000;
+}
+.username{
+    color: black;
+}
+#Email{
+    color: black;
+}
+.botoness{
+    margin: auto;
+    padding: 0;
+}
+.barra{
+    margin: 50px;
+    bottom: 25px;
+}
+.wrapper{
+    position: absolute;
+    top: 355px;
+    left: 0;
+    width: 200px;
+    height: 453px;
+}
+.carritoV{
+    margin: auto;
+    width: 900px;
+    height: 380px;
+}
+.vacio{
+    margin: auto;
+    width: 686px;
+    height: 63px;
+    background: white;
+    color: gray;
+}
+.volver{
+    margin: auto;
+    width: 386px;
+    height: 56px;
+}
+.Volver{
+    background: palevioletred;
+}
 footer{
     position: relative;
     margin:0 auto;
     width: 1320px;
     height: 482px;
-    background: #ec0b0b;
     color: white;
     text-align: center;
     font-family: sans-serif,cursive;
     line-height: 70px;
 }
+
+a {
+    text-decoration: none;
+    color: #3F2212;
+    transition: .5s ease;
+    
+    &:hover {
+        color:#3F2212;
+    }}
+    li a {
+        display: block;
+        text-decoration: none;
+        padding: 15px;
+        background: rgba(gris-light,.25);
+        color: gris-light;
+        font-size: 20px;
+        float: left;
+        width: 50%;
+        text-align: center;
+        cursor: pointer;
+        transition: .5s ease;
+        
+        &:hover {
+            background:#3F2212;
+            color: white;
+        }
+    }
+    
+    .active a {
+        background:#3F2212;
+        color: white;
+    }
