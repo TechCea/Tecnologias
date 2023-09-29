@@ -27,12 +27,15 @@ bottom: 70px;
 right: 150px;
 background-image: none;
 }
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 body{
     background: url(/IMG/Picsart_23-07-22_21-56-34-072.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
     background-attachment: fixed;
+    width: 1349px;
+    height: 1854px;
 }
 header{
     position: relative;
@@ -72,15 +75,29 @@ header{
     left: 256px;
     cursor: pointer;    
 }
-#icono2{
-    top: 10px;
-    left: 128px;
+.icono2{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 50px;
+    right: 275px;
+    border-radius: 100%;
+    text-align: center;
     cursor: pointer;
-
 }
 #icono3{
     top: 10px;
     left: 19px;
+    cursor: pointer;
+}
+.icono4{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 10px;
+    right: 125px;
+    border-radius: 100%;
+    text-align: center;
     cursor: pointer;
 }
 nav{
@@ -226,12 +243,41 @@ a .botones3:active{
     height: 365px;
     width: 365px;
 }
+.wrapper{
+    position: absolute;
+    top: 355px;
+    left: 0;
+    width: 200px;
+    height: 453px;
+}
+.carritoV{
+    margin: auto;
+    width: 900px;
+    height: 380px;
+}
+.vacio{
+    margin: auto;
+    width: 686px;
+    height: 63px;
+    background: white;
+    color: gray;
+}
+.volver{
+    margin: auto;
+    width: 386px;
+    height: 56px;
+}
+.Volver{
+    background: palevioletred;
+}
+.button{
+    background: #ec0b0b;
+}
 footer{
     position: relative;
     margin:0 auto;
     width: 1320px;
     height: 482px;
-    background: #ec0b0b;
     color: white;
     text-align: center;
     font-family: sans-serif,cursive;
