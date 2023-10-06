@@ -4,22 +4,7 @@
     list-style: none;
     font-family: 'Press Start 2P', cursive;
     background-position: center;
-}
-#chat{
-    position: fixed;
-    width: 200px;
-    height: 40px;
-    bottom: 0;
-    right: 30px;
-    background: #e613c2;
-    z-index: 1;
-    color: white;
-    text-align: center;
-    line-height: 40px;
-    font-family: sans-serif, cursive;
-    font-size: 20px;
-    border-radius: 20px 20px 0 0;
-    cursor: pointer;
+    text-decoration: none;
 }
 .Carrito{
 position: absolute;
@@ -32,6 +17,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
+    background-attachment: fixed;
     
 }
 header{
@@ -67,15 +53,8 @@ header{
     cursor: pointer;
 
 }
-.redes{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    top: 0;
-    border-radius: 100%;
-    text-align: center;
-    cursor: pointer;
-
+.submenu ul a{
+    text-decoration: none;
 }
 #icono1{
     top: 10px;
@@ -86,8 +65,8 @@ header{
     position: absolute;
     width: 70px;
     height: 70px;
-    top: 50px;
-    right: 275px;
+    top: 10px;
+    right: 310px;
     border-radius: 100%;
     text-align: center;
     cursor: pointer;
@@ -107,6 +86,11 @@ header{
     text-align: center;
     cursor: pointer;
 }
+.icono5{
+    position: relative;
+    top: 350px;
+    left: 100px;
+}
 nav{
     position: relative;
     margin: auto;
@@ -116,31 +100,43 @@ nav{
     cursor: pointer;
     text-transform: uppercase;
 }
+.numerito{
+    background-color: transparent;
+    color: white;
+    padding: 0;
+    text-decoration:dotted;
+    display: flex;
+    font-size:x-large;
+}
 .botones{
     float:left;
     left: 100px;
     margin-left: 0;
     height: 30px;
     width: 124px;
-    background: #e613c2;
+    background-color: #e0ecff;
+    background-color: transparent;
     font-size: 15px;
     color: white;
     line-height: 28px;
     text-align: center;
     display: inline;
     cursor: pointer;
+    transition: background-color .2s, color .2s;
 }
 .botones1{
     float: left;
     margin-left: 0px;
     height: 30px;
     width: 184px;
-    background: #e613c2;
+    background-color: #e0ecff;
+    background-color: transparent;
     font-size: 15px;
     color: white;
     line-height: 28px;
     text-align: center;
     cursor: pointer;
+    transition: background-color .2s, color .2s;
 }
 a .botones:hover{
     color: #3F2212;
@@ -159,11 +155,13 @@ a .botones:hover{
 .submenu{
     margin-left: 0;
     display: none;
-    background: rgba(235, 4, 146, 0.945);
+    background-color: #e0ffe2;
+    background-color: transparent;
     line-height: 18px;
     text-align: left;
     color: white;
     text-decoration: none;
+    transition: background-color .2s, color .2s;
 }
 nav ul li:hover .submenu{
     display: block;
@@ -174,6 +172,9 @@ nav ul li:hover .submenu{
 }
 nav ul li:hover .submenu ul a{
     color: white;
+}
+span{
+    margin-left: 30px;
 }
 .submenu :hover{
     color: #3F2212;
@@ -206,10 +207,12 @@ padding: 20px;
     margin-top: 82px;
     height: 48px;
     width: 140px;
-    background: #e613c2;
+    background-color: #e0ecff;
+    background-color: transparent;
     font-size: 18px;
     color: white;
     line-height: 48px;
+    transition: background-color .2s, color .2s;
 }
 .botones3{
     float: left;
@@ -217,30 +220,160 @@ padding: 20px;
     margin-top: 82px;
     height: 48px;
     width: 140px;
-    background: #e613c2;
+    background-color: #e0ecff;
+    background-color: transparent;
     font-size: 15px;
     color: white;
     line-height: 48px;
+    transition: background-color .2s, color .2s;
 }
 a .botones2:hover{
     color: #3F2212;
 }
 a .botones2:active{
-    background: rgba(235, 4, 146, 0.945);
+    background: rgba(14, 143, 2, 0.945);
 }
 a .botones3:hover{
     color: #3F2212;
 }
 a .botones3:active{
-    background: rgba(235, 4, 146, 0.945);
+    background: rgba(14, 143, 2, 0.945);
+}
+.producto-titulo{
+    padding: 5px;
+    font-size: small;
+    color: white;
+}
+.Inicio{
+    margin-top: 50px;
+    color: white;
+    padding: 5px;
+}
+.Shop{
+    margin-top: 50px;
+    color: white;
+}
+.resultados{
+    margin-top: 70px;
+    color: aqua;
 }
 .insta{
-    margin: 0;
+    top: 35px;
     padding: 0;
     width: 174px;
     height: 174px;
-    left: 574px;
+    left: 0;
     border-radius: 25%;
+}
+.Copy{
+    margin-top: 100px;
+}
+.categoria{
+    background-color: burlywood;
+    transition: background-color .2s, color .2s;
+}
+.categoria:hover{
+    background-color:#3F2212;
+    color: white;
+}
+.categoria1{
+    background-color: burlywood;
+    font-size: 15px;
+    transition: background-color .2s, color .2s;
+}
+.categoria1:hover{
+    background-color:#3F2212;
+    color: white;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+}
+aside{
+    margin-left: 0;
+    left: 0;
+    margin-top: 400px;
+    padding: 0px;
+    color: white;
+    position: sticky;
+    top: 0;
+    height: 100px;
+}
+.wrapper aside .CategoriasD ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: background-color .2s, color .2s;
+}
+.wrapper aside .CategoriasD ul li a:hover{
+    color: aquamarine;
+}
+.n{
+    padding: 5px;
+    color:aqua;
+}
+.CategoriasD{
+    margin-left: 55px;
+}
+.CategoriasD ul li{
+    padding: 10px;
+}
+main{
+    left: 0;
+    width: 900px;
+    margin:0;
+}
+.contenedor_productos{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+}
+.contenedor_productos2{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+}
+.contenedor_productos3{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+}
+.producto-imagen{
+    border-radius: 1rem;
+}
+.producto-detalle{
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.producto-precio{
+    color: aqua;
+}
+.producto-agregar{
+    margin: 0;
+    background-color: burlywood;
+    border-radius: 1rem;
+    transition: background-color .2s, color .2s;
+}
+.producto-agregar:hover{
+    background-color: #3F2212;
+    color: white;
+}
+.btn-toolbar{
+    padding: 50px;
+    margin-left: 365px;
+}
+.bn {
+    margin-left: 15px;
+    width: 42px;
+    height: 38px;
+    background-color: burlywood;
+    transition: background-color .2s, color .2s;
+}
+.bn:hover{
+    background-color: #3F2212;
+    color: white;
 }
 footer{
     position: relative;

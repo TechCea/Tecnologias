@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CapiBeads</title>
+    <title>Shop</title>
     <link rel="icon" href="IMG/IMG_20230602_210844_127.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,16 +16,17 @@
 <header>
     <div id="Logo"><img src="/IMG/cropped-Picsart_23-06-19_20-56-57-353-1-scaled-1-300x100.jpg" width="396" height="132"></div>
     <div id="icono1" class="redes" >
-    <img src="/IMG/capiinfo.png" width="148">
+    <a href="/shop.html"><img src="/IMG/capifigura.png" width="148"></a>
     </div>
     <div id="icono3" class="redes">
-      <img src="/IMG/capientregas.png" width="148">
+      <img src="/IMG/capiinfo.png" width="148">
       </div>
-      <div class="icono2"><a href="/CapiBeadsS.html"><img src="/IMG/carrito-de-compras.png" width="60" height="60"><span class="numerito">0</span></a>
+      <div class="icono2"><a href="/CapiBeadsCarro.html"><img src="/IMG/capicarrito.png" width="148"></a><span id="numerito" class="numerito">0</span>
       </div>
       <div class="icono4">
         <a href="/polar.html"><img src="/IMG/capiuser.png" width="148"></a>
       </div>
+      <div class="icono5"><img src="/IMG/Picsart_23-06-02_21-00-56-778.jpg" width="239" height="239"></div>
 </header>
 <nav>
     <ul><center>
@@ -38,9 +39,9 @@
         <li class="botones1"><a href="#"></a><b>Acerca de▼</b></a>
           <div class="submenu">
               <ul>
-                <a href="#"><li class="botonesC"><b>Politica de Cookies</b></li></a>
-                <a href="#"><li class="botonesC"><b>Politicas de Privacidad</b></li></a>
-                <a href="#"><li class="botonesC"><b>Aviso Legal CapiBeads</b></li></a>
+                <a href="#"><li class="botonesC">Politica de Cookies</li></a>
+                <a href="#"><li class="botonesC">Politicas de Privacidad</li></a>
+                <a href="#"><li class="botonesC">Aviso Legal CapiBeads</li></a>
               </ul>
           </div>
         </li>
@@ -49,62 +50,37 @@
 <br>
       <div class="wrapper">
         <aside>
-           <header>
-             <h1 class="LogoS">Capi logo</h1>
-           </header>
-           <nav>
+              <div class="CategoriasD">
               <ul>
-                <li><button class="Categorias"><a href="#">Sin categorizar</a>(5)</button></li>
-                <li><button class="Categorias"><a href="#">Accion</a>(7)</button></li>
-                <li><button class="Categorias"><a href="#">Anime</a>(10)</button></li>
-                <li><button class="Categorias"><a href="#">Minecraft</a>(6)</button></li>
-                <li><button class="Categorias"><a href="#">Pokemon</a>(12)</button></li>
-                <li><button class="Categorias"><a href="#">South Park</a>(1)</button></li>
-                <li><button class="Categorias"><a href="#">Valorant</a>(21)</button></li>
+                <li><button id="sin" class="categoria1 boton-categoria">Todos los Productos</button></li>
+                <li><button id="accion" class="categoria boton-categoria">Accion</button></li>
+                <li><button id="anime" class="categoria boton-categoria">Anime</button></li>
+                <li><button id="minecraft" class="categoria boton-categoria">Minecraft</button></li>
+                <li><button id="pokemon" class="categoria boton-categoria">Pokemon</button></li>
+                <li><button id="south-park" class="categoria boton-categoria">South Park</button></li>
+                <li><button id="valorant" class="categoria boton-categoria">Valorant</button></li>
               </ul>
-           </nav>
+              </div>
         </aside>
         <main>
          <h6 class="Inicio">Inicio / Shop</h6>
          <h1 class="Shop">Shop</h1>
-         <h6 class="resultados">Mostrando 1-12 de 60 resultados</h6>
-         <div class="contenedor_productos">
-             <div class="productos">
-                <img class="producto-imagen" src="/IMG/84e116ad-465d-451d-af01-b3db6e98c746.jpg">
-                <div class="producto-detalle">
-                  <h1 class="producto-titulo">Decoracion de Flores de Minecraft c/u</h1>
-                  <p class="producto-precio">$3.00</p>
-                  <button class="producto-agregar">Agregar</button>
-                </div>
-             </div>
-             <div class="productos">
-              <img class="producto-imagen" src="/IMG/84e116ad-465d-451d-af01-b3db6e98c746.jpg">
-              <div class="producto-detalle">
-                <h1 class="producto-titulo">Llavero de Articuno</h1>
-                <p class="producto-precio">$4.00</p>
-                <button class="producto-agregar">Agregar</button>
-              </div>
-           </div>
-           <div class="productos">
-            <img class="producto-imagen" src="/IMG/84e116ad-465d-451d-af01-b3db6e98c746.jpg">
-            <div class="producto-detalle">
-              <h1 class="producto-titulo">Llavero de Astra</h1>
-              <p class="producto-precio">$3.50</p>
-              <button class="producto-agregar">Agregar</button>
-            </div>
-         </div>
-         <div class="productos">
-          <img class="producto-imagen" src="/IMG/84e116ad-465d-451d-af01-b3db6e98c746.jpg">
-          <div class="producto-detalle">
-            <h1 class="producto-titulo">Llavero de Asuka</h1>
-            <p class="producto-precio">$3.75</p>
-            <button class="producto-agregar">Agregar</button>
-          </div>
-       </div>
-         </div>
+         <h6 id="titulo-principal" class="resultados">Todos los Prodcutos</h6>
+         <div id="contenedor_productos" class="contenedor_productos">
+             
+        </div>
         </main>
       </div>
 
+      <div class="tool">
+      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group me-2" role="group" aria-label="First group">
+          <button type="button" class="bn btn-primary">1</button>
+          <button type="button" class="bn btn-primary">2</button>
+          <button type="button" class="bn btn-primary">3</button>
+          <button type="button" class="bn btn-primary">4</button>
+        </div>
+      </div>
 <footer>
   <nav class="footer">
     <u>

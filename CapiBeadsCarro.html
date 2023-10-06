@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="icon" href="IMG/IMG_20230602_210844_127.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+<header>
+    <div id="Logo"><img src="/IMG/cropped-Picsart_23-06-19_20-56-57-353-1-scaled-1-300x100.jpg" width="396" height="132"></div>
+    <div id="icono1" class="redes" >
+    <img src="/IMG/capifigura.png" width="148">
+    </div>
+    <div id="icono3" class="redes">
+      <img src="/IMG/capiinfo.png" width="148">
+      </div>
+      <div class="icono2"><a href="/shop.html"><img src="/IMG/capicarrito.png" width="148"></a>
+      </div>
+      <div class="icono4">
+        <a href="/logibP.html"><img src="/IMG/capiuser.png" width="148"></a>
+      </div>
+      <div class="icono5"><img src="/IMG/Picsart_23-06-02_21-00-56-778.jpg" width="239" height="239"></div>
+</header>
+<nav>
+  <ul><center>
+  <a href="/index.html"><li class="botones"><b class="home">Home</b></li></a>
+      <a href="/shop.html"><li class="botones"><b>Shop</b></li></a>
+      <a href="#"><li class="botones"><b>About</b></li></a>
+      <a href="/CapiBeadsCarro.html"><li class="botones"><b>Carrito</b></li></a>
+      <a href="/logibP.html"><li class="botones"><b>Cuenta</b></li></a>
+      <a href="#"><li class="botones"><b>Contac</b></li></a>
+      <li class="botones1"><a href="#"></a><b>Acerca de▼</b></a>
+        <div class="submenu">
+            <ul>
+              <a href="#"><li class="botonesC"><b>Politica de Cookies</b></li></a>
+              <a href="#"><li class="botonesC"><b>Politicas de Privacidad</b></li></a>
+              <a href="#"><li class="botonesC"><b>Aviso Legal CapiBeads</b></li></a>
+            </ul>
+        </div>
+      </li>
+  </ul></center>
+
+</nav>
+    <div class="wrapper">
+      <aside>
+            <div class="CategoriasD">
+              <ul>
+                <li><a href="/shop.html"><button class="seguir">Seguir Comprando</button></a></li>
+              </ul>
+            </div>
+      </aside>
+      <main>
+       <div class="carritotext"><h1>Carrito</h1></div>
+       <div class="contenedor_carrito">
+        <p id="carrito-vacio" class="carrito-vacio1">Tu Carrito esta vacio<i class="bi bi-emoji-frown"></i></p>
+        <div id="carrito-productos" class="carrito-productos disabled">
+            <div class="carrito-producto">
+        
+            </div>
+
+        </div>
+          <div id="carrito-acciones" class="carrito-acciones disabled">
+            <div class="carrito-acciones-izquierda">
+               <button id="carrito-accion-vaciar" class="carrito-acciones-vaciar">Vaciar Carrito</button>
+            </div>
+            <div class="carrito-acciones-derecha">
+                <div class="carrito-acciones-total">
+                  <p>Total:</p>
+                  <p id="total" class="total">$</p>
+                </div>
+                <button id="carrito-acciones-comprar" class="acciones-comprar">Comprar Ahora</button>
+            </div>
+          </div>
+          <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra<i class="bi bi-emoji-laughing"></i></p>
+       </div>
+      </main>
+    </div>   
+</body>
+<script src="/JS/carrito.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</html>

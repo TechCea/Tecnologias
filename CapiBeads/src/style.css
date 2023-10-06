@@ -286,9 +286,7 @@ aside{
     position: sticky;
     top: 0;
     height: 100px;
-}
-.numerito{
-  color: white;
+    
 }
 .wrapper aside .CategoriasD ul li a{
     text-decoration: none;
@@ -449,7 +447,6 @@ main{
 .carrito-comprado{
   font-size: 70px;
 }
-
 footer{
     position: relative;
     margin:0 auto;
