@@ -1,0 +1,61 @@
+body{
+
+    background-image: url('/IMG/imagenfondo.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 7%;
+    margin-right: 7%; 
+
+
+}
+#contenedor{
+text-align: left;
+background-color: #a89163;
+margin: 40 auto;
+background-image: 100%;
+background-color: 100%;
+font-family: 'Press Start 2P', cursive;
+padding: 35px;
+
+
+}
+#contenedor h1{
+color: white;
+text-align: left;
+margin-left: 35px;
+font-size: 45px;
+}
+#contenedor img{
+width: 1024px;
+height: 576px;
+display: block;
+margin: 0 auto;
+}
+
+#contenedor p{
+font-size: 23px;
+margin-left: 35px;
+margin-right: 220px;
+color: cyan;
+width: 93%;
+}
+
+#contenedor li {
+width: 93%;
+font-size: 23px;
+color: cyan;
+margin-left: 35px;
+margin-right: 210px;
+}
+
+#contenedor lu{
+width: 93%;
+font-size: 23px;
+color: cyan;
+}
+
+
+
+
